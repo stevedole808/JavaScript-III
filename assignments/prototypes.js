@@ -8,6 +8,8 @@
   Each constructor function has unique properties and methods that are defined in their block comments below:
 */
   
+
+
 /*
   === GameObject ===
   * createdAt
@@ -61,6 +63,7 @@ CharacterStats.prototype.takeDamage = function () {
    CharacterStats.call(this, game2);
    console.log(this)
  }
+
 
  Humanoid.prototype = Object.create(CharacterStats.prototype);
  Humanoid.prototype.greet = function () {
